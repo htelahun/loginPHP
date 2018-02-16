@@ -7,7 +7,7 @@ function getAll($tbl){
 	if($runAll){
 		return $runAll;
 	}else{
-		$error ="there was an error accessing this info. Please contact your admin.";
+		$error ="There was an error accessing this info. Please contact your admin.";
 		return $error;
 	}
 
@@ -22,7 +22,7 @@ function getSingle($tbl,$col,$id){
 	if($runSingle){
 		return $runSingle;
 	}else{
-		$error ="there was an error accessing this info. Please contact your admin.";
+		$error ="There was an error accessing this info. Please contact your admin.";
 		return $error;
 	}
 		mysqli_close($link);

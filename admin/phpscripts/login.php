@@ -27,7 +27,7 @@ function logIn($username, $password, $ip){
 
       redirect_to('admin_index.php');
     }else {
-      $message = "username and or password is incorrect. <br>Please make sure your caps lock key is turned off. ";
+      $message = "Username and or password is incorrect. <br>Please make sure your caps lock key is turned off. ";
       return $message;
     }
 
